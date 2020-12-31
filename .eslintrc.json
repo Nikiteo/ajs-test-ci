@@ -14,9 +14,6 @@
         "import/extensions": [
             "error",
             "ignorePackages"
-        ],
-       "linebreak-style": [
-           "error", "windows"
         ]
    }
 }
