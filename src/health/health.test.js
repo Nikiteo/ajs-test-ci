@@ -15,31 +15,3 @@ test.each([
     expect(stringifyHealth({ name: 'Test', health: healthPoints })).toBe(health);
   },
 );
-
-// test('should return string name of health status', () => {
-//       const expected = 'healthy';
-//       const received = stringifyHealth({ name: 'Test', health: 60 });
-
-//       expect(received).toBe(expected);
-//     });
-
-//     test('should return string name of health status', () => {
-//       const expected = 'healthy';
-//       const received = stringifyHealth({ name: 'Test', health: 51 });
-
-//       expect(received).toBe(expected);
-//     });
-
-//     test('should return string name of health status', () => {
-//       const expected = 'wounded';
-//       const received = stringifyHealth({ name: 'Test', health: 50 });
-
-//       expect(received).toBe(expected);
-//     });
-
-//     test('should return string name of health status', () => {
-//       const expected = 'wounded';
-//       const received = stringifyHealth({ name: 'Test', health: 49 });
-
-//       expect(received).toBe(expected);
-//     });
